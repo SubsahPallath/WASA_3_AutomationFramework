@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test_Runner-1(failed)">
+    <classes>
+      <class name="vtigerContactTests.CreateContactForVtiger">
+        <methods>
+          <include name="bmConfig"/>
+          <include name="aconfig"/>
+          <include name="asConfig"/>
+          <include name="createContact"/>
+          <include name="bsConfig"/>
+          <include name="demoTest"/>
+          <include name="amConfig"/>
+          <include name="bcConfig"/>
+        </methods>
+      </class> <!-- vtigerContactTests.CreateContactForVtiger -->
+    </classes>
+  </test> <!-- Test_Runner-1(failed) -->
+  <test thread-count="2" parallel="tests" name="Test_Runner-2(failed)">
+    <classes>
+      <class name="vtigerOrganizationTests.CreateOrganizationWithDDT">
+        <methods>
+          <include name="bmConfig"/>
+          <include name="aconfig"/>
+          <include name="asConfig"/>
+          <include name="bsConfig"/>
+          <include name="amConfig"/>
+          <include name="createOrganization"/>
+          <include name="bcConfig"/>
+        </methods>
+      </class> <!-- vtigerOrganizationTests.CreateOrganizationWithDDT -->
+    </classes>
+  </test> <!-- Test_Runner-2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
